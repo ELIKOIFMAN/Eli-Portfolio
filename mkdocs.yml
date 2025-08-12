@@ -1,0 +1,87 @@
+site_name: Eli Koifman — Portfolio & Guides
+site_description: Data analytics portfolio and technical guides (logic & syntax).
+site_url: https://example.com
+repo_url: https://github.com/your-username/your-repo
+edit_uri: ""
+
+# Use portable content dir
+docs_dir: content
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+    - toc.integrate
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  logo: images/logo.png
+  favicon: images/favicon.png
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Overview: guides/index.md
+      - SQL:
+          - SQL Overview: guides/sql/index.md
+          - Joins (Logic): guides/sql/joins-logic.md
+          - Window Functions (Syntax + Patterns): guides/sql/window-functions.md
+      - Pandas:
+          - Pandas Overview: guides/pandas/index.md
+          - GroupBy Patterns: guides/pandas/groupby-patterns.md
+          - Merge & Join: guides/pandas/merge-join.md
+      - Python:
+          - Python Overview: guides/python/index.md
+  - Portfolio:
+      - Overview: portfolio/index.md
+      - Case Study — Sales Pipeline: portfolio/sales-pipeline.md
+  - Blog:
+      - Coming Soon: blog/index.md
+  - About: about.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/your-profile
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username
+  analytics:
+    provider: google
+    property: GA_MEASUREMENT_ID  # Replace with your GA4 ID (e.g., G-XXXXXXXXXX)
+
+# Cloudflare Web Analytics (optional): uncomment next line and set your token
+# extra_javascript:
+#   - https://static.cloudflareinsights.com/beacon.min.js?token=YOUR_CLOUDFLARE_TOKEN
+
