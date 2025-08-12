@@ -8,12 +8,6 @@ Deploys to GitHub Pages via GitHub Actions.
 - Organize guides under `/content/guides/` (e.g., `sql/`, `pandas/`, `python/`).
 - Portfolio items go in `/content/portfolio/` as separate pages.
 
-## Local preview
-- Install Python 3.10+
-- `pip install -r requirements.txt`
-- `mkdocs serve`
-- Open `http://127.0.0.1:8000`
-
 ## Analytics (optional)
 - **Google Analytics 4**: set `GA_MEASUREMENT_ID` in `mkdocs.yml` under `extra` → `analytics`.
 - **Cloudflare Web Analytics**: uncomment the `extra_javascript` line with the Cloudflare snippet in `mkdocs.yml` and replace the token.
