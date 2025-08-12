@@ -3,17 +3,6 @@
 Portable, content-first structure. Write everything in Markdown under `/content`.
 Deploys to GitHub Pages via GitHub Actions.
 
-## Quick start
-1) Create a new **public** GitHub repo and push this project.
-2) In GitHub, go to **Settings → Pages**, set:
-   - **Source**: Deploy from a branch
-   - **Branch**: `gh-pages` (root) — will appear after first workflow run
-3) In your repo, go to **Actions**, enable workflows if prompted. The `gh-pages` workflow will:
-   - Install MkDocs + Material
-   - Build the site from `/content`
-   - Publish to the `gh-pages` branch
-4) After the first successful run, your site is live at: `https://<your-username>.github.io/<repo-name>/`.
-
 ## Write content
 - Put all Markdown content in `/content`.
 - Organize guides under `/content/guides/` (e.g., `sql/`, `pandas/`, `python/`).
