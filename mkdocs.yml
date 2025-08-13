@@ -44,8 +44,6 @@ nav:
           - Pandas Overview: guides/pandas/index.md
           - GroupBy Patterns: guides/pandas/groupby-patterns.md
           - Merge & Join: guides/pandas/merge-join.md
-      - Python:
-          - Python Overview: guides/python/index.md
   - Blog:
       - Coming Soon: blog/index.md
   - About: about.md
