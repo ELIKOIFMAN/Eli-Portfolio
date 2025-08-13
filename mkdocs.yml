@@ -1,7 +1,6 @@
 site_name: Eli Koifman — Portfolio & Guides
 site_description: Data analytics portfolio and technical guides (logic & syntax).
 site_url: https://elikoifman.github.io/Eli-Portfolio
-repo_url: https://github.com/ELIKOIFMAN/Eli-Portfolio
 edit_uri: ""
 
 # Use portable content dir
@@ -72,7 +71,7 @@ markdown_extensions:
       permalink: true
 
 extra:
-  homepage: https://elikoifman.github.io/Eli-Portfolio/
+  homepage: https://elikoifman.github.io/Eli-Portfolio
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/eli-koifman-0a9285224/
