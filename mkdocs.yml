@@ -31,6 +31,9 @@ theme:
 
 nav:
   - Home: index.md
+  - Portfolio:
+      - Overview: portfolio/index.md
+      - Case Study — Sales Pipeline: portfolio/sales-pipeline.md
   - Guides:
       - Overview: guides/index.md
       - SQL:
@@ -43,9 +46,6 @@ nav:
           - Merge & Join: guides/pandas/merge-join.md
       - Python:
           - Python Overview: guides/python/index.md
-  - Portfolio:
-      - Overview: portfolio/index.md
-      - Case Study — Sales Pipeline: portfolio/sales-pipeline.md
   - Blog:
       - Coming Soon: blog/index.md
   - About: about.md
