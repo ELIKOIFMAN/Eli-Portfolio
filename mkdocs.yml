@@ -1,6 +1,6 @@
 site_name: Eli Koifman — Portfolio & Guides
 site_description: Data analytics portfolio and technical guides (logic & syntax).
-site_url: https://example.com
+site_url: https://elikoifman.github.io/Eli-Portfolio/
 repo_url: https://github.com/your-username/your-repo
 edit_uri: ""
 
@@ -27,7 +27,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light mode
-  logo: images/logo.png
+  # logo: images/logo.png   # (temporarily disabled to remove '?' placeholder)
   favicon: images/favicon.png
 
 nav:
