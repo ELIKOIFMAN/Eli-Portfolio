@@ -75,9 +75,9 @@ extra:
   homepage: https://elikoifman.github.io/Eli-Portfolio/
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/your-profile
+      link: https://www.linkedin.com/in/eli-koifman-0a9285224/
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username
+      link: https://github.com/ELIKOIFMAN
   analytics:
     provider: google
     property: GA_MEASUREMENT_ID  # Replace with your GA4 ID (e.g., G-XXXXXXXXXX)
